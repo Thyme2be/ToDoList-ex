@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(17, 17, 17);
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+input {
+  border: none;
+  margin-bottom: 3vh;
+  padding: 1.1vh;
+  padding-right: 4vw;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  margin-bottom: 1vh;
+}
+
+.text-task {
+  font-size: 1.5rem;
+  margin-right: 2vw;
+  flex: 1;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5vw;
+  margin-left: 0.5vw;
+}
+
+.btn-add {
+  background-color: green;
+  padding: 1.2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+
+.btn-del {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 1.2vh;
+}
+
+.btn-move {
+  background-color: rgb(241, 241, 47);
+}
